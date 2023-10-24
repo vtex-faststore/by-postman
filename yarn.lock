@@ -968,10 +968,10 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.4.tgz#d1b1c1fb7c2e5f322f986d51ccd575fcf00ec07d"
-  integrity sha512-4fXz8is3zwgGjvYKCVRqrH2oWsF7MdA9BvBNcoIwsUgtTJg5+q5OKklTUkFJzjZ1Xa/IM9D7/O3IF7DOhnNO1g==
+"@faststore/cli@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-2.2.5.tgz#66e325fad123f8910ab49fd58329391c8c46fe0f"
+  integrity sha512-1KO81wi6nB7nyHsjRn5mLBRPFcg0FecXbq1NJRqxdXYmWkDTgT6lf5EeRqoNPuRuvbn+ZtT/vo/ivVncAb7Xgg==
   dependencies:
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -5082,6 +5082,13 @@ is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-relative@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
+  integrity sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA==
+  dependencies:
+    is-unc-path "^1.0.0"
 
 is-set@^2.0.1, is-set@^2.0.2:
   version "2.0.2"
