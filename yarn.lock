@@ -986,10 +986,10 @@
   resolved "https://registry.yarnpkg.com/@faststore/components/-/components-2.2.0.tgz#dc2273372cf5a8b0b5dfe41c5cc224228f242119"
   integrity sha512-t+MJv8A4X5nZFfIgAHna7bPbJbZGyly73QMcnyd11v4zten/hpqNMN/paOGxKK4yl1XLhy+Y6djx1jiQ2AawTQ==
 
-"@faststore/core@^2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.4.tgz#65e97ec7eb9897d3470772ea1c1ea62829b061d4"
-  integrity sha512-g2tzgFbf4FOsGw6x8bp9osT2tU2FrTNvE8rNIVCgZIZT9yokS3LPciG9TK/FrWC97OShiSoY6vdM1EbnoT7ZLw==
+"@faststore/core@^2.2.7":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-2.2.7.tgz#9561e5ef241c1978f5102520007025b9e44d0ca6"
+  integrity sha512-oqlNIw5+hN2mvoT6ox+ScMQ4tF7OAxuOHjkT3akkFoGvGR+kkIkEN7DM099fQDOOPwZ0zcXU+mtsUZqdpIojDQ==
   dependencies:
     "@builder.io/partytown" "^0.6.1"
     "@envelop/core" "^1.2.0"
@@ -5082,6 +5082,13 @@ is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-relative@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
+  integrity sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA==
+  dependencies:
+    is-unc-path "^1.0.0"
 
 is-set@^2.0.1, is-set@^2.0.2:
   version "2.0.2"
