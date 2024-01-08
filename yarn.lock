@@ -1045,10 +1045,10 @@
     "@graphql-codegen/plugin-helpers" "^2.2.0"
     "@graphql-tools/relay-operation-optimizer" "^6.4.0"
 
-"@faststore/lighthouse@^2.1.106":
-  version "2.1.106"
-  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.1.106.tgz#6bd1d28c5f156d2a1fc0f03667b67b4ce264ad72"
-  integrity sha512-MNW4vIoYqe7kIguPjZ0V8Ti5pAXR/Jnl0oKAzV+877huHDeGDTCOrmmWHXI3Rh/BQ1dSu4xpCsNd+Uf1Y8ttVA==
+"@faststore/lighthouse@^2.2.69":
+  version "2.2.69"
+  resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-2.2.69.tgz#e22c304193202bf729753cb5c3a543afec9c145f"
+  integrity sha512-jsNzNMx4ZmFcPjhhVL5IqnSNMJELuxfl3/Kd7iA/qFcwVoRPmMAUZKcVQiXy4X+nyGKxwVSpfm7RMgyZHf0W8A==
 
 "@faststore/sdk@^2.2.0":
   version "2.2.0"
@@ -5082,6 +5082,13 @@ is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
+
+is-relative@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
+  integrity sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA==
+  dependencies:
+    is-unc-path "^1.0.0"
 
 is-set@^2.0.1, is-set@^2.0.2:
   version "2.0.2"
